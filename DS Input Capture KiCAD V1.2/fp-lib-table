@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Controller-Mod-Flexcable")(type KiCad)(uri "$(KIPRJMOD)/Controller-Mod-Flexcable.pretty")(options "")(descr ""))
+)

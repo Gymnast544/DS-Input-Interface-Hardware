@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Aligned mobo")(type KiCad)(uri "$(KIPRJMOD)/Aligned mobo.pretty")(options "")(descr ""))
+)

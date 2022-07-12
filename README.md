@@ -1,1 +1,6 @@
 # DS-Input-Interface-Hardware
+
+
+These are the hardware files I used to make the DS Input Interface. The files are a bit messy but the Flex PCB is in my opinion a pretty good way to connect a microcontroller to all the DS inputs and mount it nicely on the back of the DS. There's also some hardware notes and drawings about touchscreen control.
+
+I did all of the drawing for the PCB in Inkscape, as it was easy to have a correctly scaled image of the DS motherboard and measure the positions of the pads from that image. I believe I used svg2shenzhen (https://github.com/badgeek/svg2shenzhen) to convert from the inkscape drawing to KiCad. I then used KiCad for exporting gerber files. There are gerbers already exported in one of the folders, if you want to simply order another batch of the flex cables. Tip for ordering: order in bulk, as when ordering <5 the prices are enormous - it cost me just under 1/2 as much to order 3 of my test PCBs as it did to order 15. I ordered from PCBway, I think I went with 2 layers of copper, though the traces are routed such that a single layer flex PCB should work fine.
